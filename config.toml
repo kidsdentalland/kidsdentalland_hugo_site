@@ -1,5 +1,5 @@
 title = "Kids Dental Land"
-baseURL = "https://kidsdentalland.org"
+baseURL = "https://kidsdentalland.org/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
