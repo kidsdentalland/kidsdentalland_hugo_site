@@ -5,17 +5,17 @@ theme = "airspace-hugo"
 
 [menu]
 
-  [[menu.header]]
-    weight = 2
-    name = "Work"
-    url = "/work"
-  [[menu.header]]
-    weight = 3
-    name = "Blog"
-    url = "/blog"
+#  [[menu.header]]
+#    weight = 2
+#    name = "Work"
+#    url = "/work"
+#  [[menu.header]]
+#    weight = 3
+#    name = "Blog"
+#    url = "/blog"
   [[menu.header]]
     weight = 4
-    name = "Service"
+    name = "Services"
     url = "/service"
   [[menu.header]]
     weight = 5
@@ -29,7 +29,7 @@ theme = "airspace-hugo"
   [[menu.footer]]
     weight = 2
     name = "Contact us"
-    url = "#"
+    url = "/contact"
 
 # The site's parameters
 [params]
@@ -60,8 +60,8 @@ theme = "airspace-hugo"
 
   [params.feature]
     enable = true
-    title = "We believe in great ideas"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    title = "We believe in the best care for our patients"
+    content = "Kids should love going to the dentist, and we work hard to ensure that our patients will want to come back."
     [params.feature.button]
       caption = "View Works"
       url = "#"
