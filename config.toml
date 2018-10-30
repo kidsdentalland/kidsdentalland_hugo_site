@@ -5,82 +5,81 @@ theme = "airspace-hugo"
 
 [menu]
 
-#  [[menu.header]]
-#    weight = 2
-#    name = "Work"
-#    url = "/work"
-#  [[menu.header]]
-#    weight = 3
-#    name = "Blog"
-#    url = "/blog"
-#  [[menu.header]]
-#    weight = 4
-#    name = "Services"
-#    url = "/service"
   [[menu.header]]
-    weight = 5
-    name = "Contact"
-    url = "/contact"
-
-  [[menu.footer]]
-    weight = 1
-    name = "About us"
-    url = "#"
-  [[menu.footer]]
     weight = 2
-    name = "Contact us"
-    url = "/contact"
+    name = "Kids Dental Health"
+    url = "/kids_dental_health"
+  [[menu.header]]
+    weight = 3
+    name = "Dental Health"
+    url = "/dental_health"
+  [[menu.header]]
+    weight = 4
+    name = "Patients"
+    url = "/patients"
+[[menu.header]]
+weight = 5
+name = "Contact"
+url = "/contact"
+
+[[menu.footer]]
+weight = 1
+name = "About us"
+url = "#"
+[[menu.footer]]
+weight = 2
+name = "Contact us"
+url = "/contact"
 
 # The site's parameters
 [params]
 
-  dateFormat = "6 January 2006"
+dateFormat = "6 January 2006"
 
-  home = "Home"
+home = "Home"
 
-  [params.slider]
-    enable = true
-    title = "A friendly pediatric dentist...blah blah"
-    subtitle = "A super awesome place for kids that will make them love going to the dentist"
+[params.slider]
+enable = true
+title = "A friendly pediatric dentist...blah blah"
+subtitle = "A super awesome place for kids that will make them love going to the dentist"
 
-  [params.wrapper]
-    enable = true
-    title = "About Us"
-    # italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics" */
-    paragraph = "Dr. Vera has been practicing dentistry for nearly and decade and will ensure the best care for his patients."
+[params.wrapper]
+enable = true
+title = "Our Staff"
+paragraph = "Kids Dental Land is led by out founder and Chief Dentist, Dr. Edward Lee Vera, DMD. Our doctors are licensed specialists in their respective fields and have graduated from some of the Nation’s best dental schools. They are highly trained and committed to delivering professional care to all our patients."
 
-  [params.blog]
-    enable = true
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
+[params.blog]
+enable = true
+title = "Get The Latest On What We're doing"
+subtitle = "Catch up with us, anytime and anywhere"
 
-  [params.feature]
-    enable = true
-    title = "We believe in the best care for our patients"
-    content = "Kids should love going to the dentist, and we work hard to ensure that our patients will want to come back."
-    [params.feature.button]
-      caption = "View Works"
-      url = "#"
+[params.feature]
+enable = true
+title = "We believe in the best care for our patients"
+content = "At Kids Dental Land we meet our satisfaction promise by providing expert care. Your child’s dental health is always our priority. Our dental professionals work tirelessly to earn your trust and loyalty by delivering the best experience and greatest results. We aim to make a change in Socorro, Texax, we are here to give smiles a brighter and healthier future. No kid will be turned away that we are able to help due to money issues. Kids are the future of tomorrow, so we are doing our part to serve this amazing and upcoming city."
+[params.feature.button]
+#caption = "View Works"
+url = "#"
 
-  [params.call]
-    enable = true
-    title = "We are the best pediatric dentistry for your kids"
-    paragraph = "Don't take our word for it. Read reviews from previous patients"
+[params.call]
+enable = true
+title = "We are the best pediatric dentistry for your kids"
+paragraph = "Don't take our word for it. Read reviews from previous patients"
 
-  [params.contact]
-    enable = true
-    title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
-    [params.contact.form]
-      name = "Your Name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
-      button = "Send message"
-    [params.contact.box]
-      title = "Schedule an Appointment"
-      address = "2015 North Loop Dr, El Paso, TX"
-      email = "Email: awesome_dentist@kidsdentalland.org"
-      phone = "Phone: +88 01672 506 744"
-    [params.contact.gmaps]
-      title = "Where are we located?"
+[params.contact]
+enable = true
+title = "Drop us a note"
+subtitle = "Don’t just take our word for it. Check out some of our latest work."
+[params.contact.form]
+name = "Your Name"
+email = "Your email"
+subject = "Your subject"
+message = "Your message"
+button = "Send message"
+[params.contact.box]
+title = "Schedule an Appointment"
+address = "2015 North Loop Dr, El Paso, TX"
+email = "Email: awesome_dentist@kidsdentalland.org"
+phone = "Phone: +88 01672 506 744"
+[params.contact.gmaps]
+title = "Where are we located?"
