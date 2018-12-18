@@ -40,7 +40,7 @@ home = "Home"
 
 [params.slider]
 enable = true
-title = "A friendly pediatric dentist...blah blah"
+title = "A friendly pediatric dentist for your kids"
 subtitle = "A super awesome place for kids that will make them love going to the dentist"
 
 [params.wrapper]
